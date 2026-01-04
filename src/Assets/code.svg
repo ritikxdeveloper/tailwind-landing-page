@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- background circle -->
+  <circle cx="24" cy="24" r="24" fill="#DCD9FF"/>
+
+  <!-- left bracket -->
+  <path d="M20 16L14 24L20 32"
+        fill="none"
+        stroke="#4F46E5"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- right bracket -->
+  <path d="M28 16L34 24L28 32"
+        fill="none"
+        stroke="#4F46E5"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- slash -->
+  <path d="M26 14L22 34"
+        fill="none"
+        stroke="#4F46E5"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+</svg>

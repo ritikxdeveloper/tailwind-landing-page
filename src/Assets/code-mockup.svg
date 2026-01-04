@@ -1,0 +1,63 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#FFFFFF"/>
+
+  <!-- Code Window Shadow -->
+  <rect x="150" y="70" rx="18" ry="18" width="600" height="330" fill="#000" opacity="0.12"/>
+
+  <!-- Code Window -->
+  <rect x="150" y="60" rx="18" ry="18" width="600" height="330" fill="#3E4346"/>
+
+  <!-- Window Controls -->
+  <circle cx="180" cy="90" r="6" fill="#FF5F56"/>
+  <circle cx="200" cy="90" r="6" fill="#FFBD2E"/>
+  <circle cx="220" cy="90" r="6" fill="#27C93F"/>
+
+  <!-- File Name -->
+  <text x="450" y="96" text-anchor="middle"
+        font-size="14" fill="#9CA3AF" font-family="Inter, sans-serif">
+    App.js
+  </text>
+
+  <!-- Code Text -->
+  <text x="180" y="150" font-size="18" font-family="JetBrains Mono, monospace">
+    <tspan fill="#D1D5DB">import</tspan>
+    <tspan fill="#FACC15"> {</tspan>
+    <tspan x="200" dy="30" fill="#60A5FA">dock,</tspan>
+    <tspan x="200" dy="30" fill="#60A5FA">isDesktopApp</tspan>
+    <tspan x="180" dy="30" fill="#FACC15">}</tspan>
+    <tspan fill="#D1D5DB"> from </tspan>
+    <tspan fill="#FB923C">'@todesktop/core'</tspan>
+
+    <tspan x="180" dy="50" fill="#D1D5DB">if</tspan>
+    <tspan fill="#FACC15"> (</tspan>
+    <tspan fill="#60A5FA">isDesktopApp</tspan>
+    <tspan fill="#FACC15">) {</tspan>
+
+    <tspan x="200" dy="30" fill="#60A5FA">dock</tspan>
+    <tspan fill="#D1D5DB">.</tspan>
+    <tspan fill="#A78BFA">bounce</tspan>
+    <tspan fill="#FACC15">()</tspan>
+
+    <tspan x="200" dy="30" fill="#60A5FA">dock</tspan>
+    <tspan fill="#D1D5DB">.</tspan>
+    <tspan fill="#A78BFA">setBadge</tspan>
+    <tspan fill="#FACC15">(</tspan>
+    <tspan fill="#FACC15">3</tspan>
+    <tspan fill="#FACC15">)</tspan>
+  </text>
+
+  <!-- Dock -->
+  <rect x="230" y="420" rx="26" ry="26" width="440" height="90" fill="#E5E7EB" opacity="0.95"/>
+
+  <!-- Dock Icons -->
+  <rect x="260" y="440" rx="14" width="60" height="60" fill="#60A5FA"/>
+  <rect x="340" y="440" rx="14" width="60" height="60" fill="#C7D2FE"/>
+  <rect x="420" y="440" rx="14" width="60" height="60" fill="#4ADE80"/>
+  <rect x="500" y="440" rx="14" width="60" height="60" fill="#3B82F6"/>
+
+  <!-- Notification Badge -->
+  <circle cx="400" cy="438" r="14" fill="#EF4444"/>
+  <text x="400" y="443" text-anchor="middle"
+        font-size="12" fill="#fff" font-family="Inter, sans-serif">3</text>
+</svg>

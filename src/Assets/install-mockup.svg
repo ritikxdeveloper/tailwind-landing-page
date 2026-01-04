@@ -1,0 +1,60 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="520" fill="#ffffff"/>
+
+  <!-- Gradient Card -->
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="30%" stop-color="#7C0022"/>
+      <stop offset="55%" stop-color="#0F766E"/>
+      <stop offset="75%" stop-color="#3730A3"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+
+    <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="120" y="90" rx="18" width="360" height="300" fill="url(#cardGrad)"/>
+
+  <!-- Install Modal Shadow -->
+  <rect x="260" y="185" rx="14" width="420" height="110" fill="#000" opacity="0.15"/>
+
+  <!-- Install Modal -->
+  <rect x="260" y="175" rx="14" width="420" height="110" fill="#F5F5F4"/>
+
+  <!-- Modal Header -->
+  <rect x="260" y="175" rx="14" width="420" height="32" fill="#EFEFEF"/>
+  <text x="470" y="196" text-anchor="middle"
+        font-size="14" fill="#111827"
+        font-family="Inter, sans-serif">
+    Install App
+  </text>
+
+  <!-- App Icon -->
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="285" y="222" rx="10" width="36" height="36" fill="url(#iconGrad)"/>
+
+  <!-- Download Text -->
+  <text x="335" y="245"
+        font-size="14"
+        fill="#1F2937"
+        font-family="Inter, sans-serif">
+    Download version 1.12.0…
+  </text>
+
+  <!-- Progress Bar Background -->
+  <rect x="335" y="255" rx="4" width="300" height="8" fill="#1F2937"/>
+
+  <!-- Progress Bar Fill -->
+  <rect x="335" y="255" rx="4" width="210" height="8" fill="url(#progressGrad)"/>
+</svg>
